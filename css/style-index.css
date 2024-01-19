@@ -1,0 +1,56 @@
+body {
+    background-image: url(/img/background.gif);
+    background-color: darkgray;
+    background-repeat: no-repeat;
+    background-size: 1000px;
+    background-attachment: fixed;
+    background-position: center center;
+}
+h1 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    background-color: rgba(116, 35, 223, 0.521);
+    font-size: 50px;
+
+}
+
+p {
+    text-align: start;
+    font-size: 34px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    position: relative;
+    top: 35px;
+}
+
+
+
+.container {
+    display: flex;
+    gap: 1rem;
+    text-align: center;
+    font-size: 1.125em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 0px;
+    position: relative;
+    bottom: 10px;
+}
+
+.container div {
+    background: rgba(230, 11, 230, 0.562);
+  border: 2px solid rgba(0, 0, 0, 0.616);
+  height: 100px;
+  flex-grow: 1;
+  flex-shrink: 1;
+  margin-top: 50px;
+}
+
+a {
+    
+    text-decoration: underline;
+}
